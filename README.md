@@ -11,7 +11,7 @@ HOST: stackoverflow.com
 [press enter]
 [press enter]
 ```
-- В ответе укажите полученный HTTP код, что он означает?
+- В ответе укажите полученный HTTP код, что он означает?  
 
 ```shell
 $ telnet stackoverflow.com 80
@@ -76,7 +76,7 @@ descr:          PrimeTel PLC
 ```
 IP адрес принадлежит ISP PrimeTel PLC
 ```shell
-$ whois 82.102.92.68 | grep ^origin
+$ whois 82.102.xxx.xxx | grep ^origin
 origin:         AS8544
 ```
 AS - AS206912
