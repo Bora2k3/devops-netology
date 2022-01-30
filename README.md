@@ -1,3 +1,4 @@
+### [Домашнее задание к занятию "5.4. Оркестрация группой Docker контейнеров на примере Docker Compose"](https://github.com/Bora2k3/devops-netology/blob/main/05-virt-04-docker-compose.md)
 ### [Домашнее задание к занятию "5.3. Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера"](https://github.com/Bora2k3/devops-netology/blob/main/05-virt-03-docker.md)
 ### [Домашнее задание к занятию "5.2. Применение принципов IaaC в работе с виртуальными машинами"](https://github.com/Bora2k3/devops-netology/blob/main/05-virt-02-iaac.md)
 ### [Домашнее задание к занятию "5.1. Введение в виртуализацию. Типы и функции гипервизоров. Обзор рынка вендоров и областей применения."](https://github.com/Bora2k3/devops-netology/blob/main/05-virt-01-basics.md)
