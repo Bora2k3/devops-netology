@@ -1,3 +1,4 @@
+### [Домашнее задание к занятию "6.1. Типы и структура СУБД"](https://github.com/Bora2k3/devops-netology/blob/main/06-db-01-basics.md)
 ### [Домашнее задание к занятию "5.5. Оркестрация кластером Docker контейнеров на примере Docker Swarm"](https://github.com/Bora2k3/devops-netology/blob/main/05-virt-05-docker-swarm.md)
 ### [Домашнее задание к занятию "5.4. Оркестрация группой Docker контейнеров на примере Docker Compose"](https://github.com/Bora2k3/devops-netology/blob/main/05-virt-04-docker-compose.md)
 ### [Домашнее задание к занятию "5.3. Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера"](https://github.com/Bora2k3/devops-netology/blob/main/05-virt-03-docker.md)
