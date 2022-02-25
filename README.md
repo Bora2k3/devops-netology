@@ -1,3 +1,4 @@
+### [Домашнее задание к занятию "6.5. Elasticsearch"](https://github.com/Bora2k3/devops-netology/blob/main/06-db-05-elasticsearch.md)
 ### [Домашнее задание к занятию "6.4. PostgreSQL"](https://github.com/Bora2k3/devops-netology/blob/main/06-db-04-postgresql.md)
 ### [Домашнее задание к занятию "6.3. MySQL"](https://github.com/Bora2k3/devops-netology/blob/main/06-db-03-mysql.md)
 ### [Домашнее задание к занятию "6.2. SQL"](https://github.com/Bora2k3/devops-netology/blob/main/06-db-02-sql.md)
