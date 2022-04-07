@@ -1,4 +1,5 @@
 ### [Домашнее задание к занятию "09.01 Жизненный цикл ПО"](https://github.com/Bora2k3/devops-netology/blob/main/09-ci-01-intro.md)
+### [Домашнее задание к занятию "7.2. Облачные провайдеры и синтаксис Terraform."](https://github.com/Bora2k3/devops-netology/blob/main/07-terraform-02-syntax.md)
 ### [Домашнее задание к занятию "7.1. Инфраструктура как код"](https://github.com/Bora2k3/devops-netology/blob/main/07-terraform-01-intro.md)
 ### [Домашнее задание к занятию "6.6. Troubleshooting"](https://github.com/Bora2k3/devops-netology/blob/main/06-db-06-troobleshooting.md)
 ### [Домашнее задание к занятию "6.5. Elasticsearch"](https://github.com/Bora2k3/devops-netology/blob/main/06-db-05-elasticsearch.md)
