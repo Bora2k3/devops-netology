@@ -1,4 +1,5 @@
 ### [Домашнее задание к занятию "09.01 Жизненный цикл ПО"](https://github.com/Bora2k3/devops-netology/blob/main/09-ci-01-intro.md)
+### [Домашнее задание к занятию "7.6. Написание собственных провайдеров для Terraform."](https://github.com/Bora2k3/devops-netology/blob/main/07-terraform-06-providers.md)
 ### [Домашнее задание к занятию "7.5. Основы golang"](https://github.com/Bora2k3/devops-netology/blob/main/07-terraform-05-golang.md)
 ### [Домашнее задание к занятию "7.4. Средства командной работы над инфраструктурой."](https://github.com/Bora2k3/devops-netology/blob/main/07-terraform-04-teamwork.md)
 ### [Домашнее задание к занятию "7.3. Основы и принцип работы Терраформ"](https://github.com/Bora2k3/devops-netology/blob/main/07-terraform-03-basic.md)
