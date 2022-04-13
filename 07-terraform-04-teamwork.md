@@ -14,6 +14,10 @@
 
 В качестве результата задания приложите снимок экрана с успешным применением конфигурации.
 
+<img src="pic/07-terraform-04-teamwork-1.jpg" width="900"/>
+
+[Terraform files](https://github.com/Bora2k3/devops-netology-terraform/tree/main/terraform)
+
 #### Задача 2. Написать серверный конфиг для атлантиса. 
 
 Смысл задания – познакомиться с документацией 
@@ -32,15 +36,23 @@
 
 В качестве результата приложите ссылку на файлы `server.yaml` и `atlantis.yaml`.
 
+[Atlantis files](atlantis)
+
 ## Задача 3. Знакомство с каталогом модулей. 
 
 1. В [каталоге модулей](https://registry.terraform.io/browse/modules) найдите официальный модуль от aws для создания
-`ec2` инстансов. 
+`ec2` инстансов.  
+
+[AWS EC2 Instance Terraform module](https://registry.terraform.io/modules/terraform-aws-modules/ec2-instance/aws/latest)
+
 2. Изучите как устроен модуль. Задумайтесь, будете ли в своем проекте использовать этот модуль или непосредственно 
 ресурс `aws_instance` без помощи модуля?
 3. В рамках предпоследнего задания был создан ec2 при помощи ресурса `aws_instance`. 
 Создайте аналогичный инстанс при помощи найденного модуля.   
 
-В качестве результата задания приложите ссылку на созданный блок конфигураций. 
+<img src="pic/07-terraform-04-teamwork-2.jpg" width="900"/>
 
----
+
+В качестве результата задания приложите ссылку на созданный блок конфигураций.  
+
+[Terraform module AWS EC2 files](https://github.com/Bora2k3/devops-netology-terraform/tree/main/terraform/terraform-module)
