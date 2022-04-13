@@ -131,4 +131,4 @@ yandex_zone = "ru-central1-a"
 1. Ответ на вопрос: при помощи какого инструмента (из разобранных на прошлом занятии) можно создать свой образ ami?
 [Packer](https://www.packer.io/)
 2. Ссылку на репозиторий с исходной конфигурацией терраформа.
-[terraform](https://github.com/Bora2k3/devops-netology/tree/main/terraform)
+[terraform](https://github.com/Bora2k3/devops-netology/tree/main/terraform/07-terraform-02-syntax)
