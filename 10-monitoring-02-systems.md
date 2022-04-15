@@ -18,10 +18,34 @@
 В виде решения на это упражнение приведите выводы команд с вашего компьютера (виртуальной машины):
 
     - curl http://localhost:8086/ping
+```bash
+$ curl -Is http://localhost:8086/ping
+HTTP/1.1 204 No Content
+Content-Type: application/json
+Request-Id: f78d5432-bc26-11ec-8239-0242ac120002
+X-Influxdb-Build: OSS
+X-Influxdb-Version: 1.8.10
+X-Request-Id: f78d5432-bc26-11ec-8239-0242ac120002
+Date: Thu, 14 Apr 2022 19:13:28 GMT
+```
     - curl http://localhost:8888
+```bash
+$ curl http://localhost:8888
+<!DOCTYPE html><html><head><meta http-equiv="Content-type" content="text/html; charset=utf-8"><title>Chronograf</title><link rel="icon shortcut" href="/favicon.fa749080.ico"><link rel="stylesheet" href="/src.9cea3e4e.css"></head><body> <div id="react-root" data-basepath=""></div> <script src="/src.a969287c.js"></script> </body></html>
+```
     - curl http://localhost:9092/kapacitor/v1/ping
+```bash
+$ curl -Is http://localhost:9092/kapacitor/v1/ping
+HTTP/1.1 204 No Content
+Content-Type: application/json; charset=utf-8
+Request-Id: 4f6440c0-bc27-11ec-8267-000000000000
+X-Kapacitor-Version: 1.6.4
+Date: Thu, 14 Apr 2022 19:15:56 GMT
+```
 
 А также скриншот веб-интерфейса ПО chronograf (`http://localhost:8888`). 
+
+<img src="pic/10-monitoring-02-1.jpg" width="900"/>
 
 P.S.: если при запуске некоторые контейнеры будут падать с ошибкой - проставьте им режим `Z`, например
 `./data:/var/lib:Z`
@@ -36,7 +60,18 @@ P.S.: если при запуске некоторые контейнеры б�
     Поэкспериментируйте с запросом, попробуйте изменить группировку и интервал наблюдений.
 
 Для выполнения задания приведите скриншот с отображением метрик утилизации места на диске 
-(disk->host->telegraf_container_id) из веб-интерфейса.
+(disk->host->telegraf_container_id) из веб-интерфейса. 
+
+Отсутствовали метрики `mem` и `disk`. Добавил в `telegraf.conf`
+```bash
+ [[inputs.mem]]
+  # no configuration
+
+[[inputs.disk]]
+  # mount_points = ["/"]
+```
+
+<img src="pic/10-monitoring-02-2.jpg" width="900"/>
 
 5. Изучите список [telegraf inputs](https://github.com/influxdata/telegraf/tree/master/plugins/inputs). 
 Добавьте в конфигурацию telegraf следующий плагин - [docker](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/docker):
@@ -64,6 +99,8 @@ P.S.: если при запуске некоторые контейнеры б�
 
 После настройке перезапустите telegraf, обновите веб интерфейс и приведите скриншотом список `measurments` в 
 веб-интерфейсе базы telegraf.autogen . Там должны появиться метрики, связанные с docker.
+
+<img src="pic/10-monitoring-02-3.jpg" width="450"/>
 
 Факультативно можете изучить какие метрики собирает telegraf после выполнения данного задания.
 
