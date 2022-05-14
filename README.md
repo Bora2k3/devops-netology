@@ -2,8 +2,6 @@
 ### [Домашнее задание к занятию "09.05 Gitlab"](https://github.com/Bora2k3/devops-netology/blob/main/09-ci-05-gitlab.md)
 ### [Домашнее задание к занятию "09.02 CI\CD"](https://github.com/Bora2k3/devops-netology/blob/main/09-ci-02-cicd.md)
 ### [Домашнее задание к занятию "09.01 Жизненный цикл ПО"](https://github.com/Bora2k3/devops-netology/blob/main/09-ci-01-intro.md)
-### [Домашнее задание к занятию "08.02 Работа с Playbook"](https://github.com/Bora2k3/devops-netology/blob/main/08-ansible-02-playbook.md)
-### [Домашнее задание к занятию "08.01 Введение в Ansible"](https://github.com/Bora2k3/devops-netology/blob/main/08-ansible-01-base.md)
 ### [Домашнее задание к занятию "7.6. Написание собственных провайдеров для Terraform."](https://github.com/Bora2k3/devops-netology/blob/main/07-terraform-06-providers.md)
 ### [Домашнее задание к занятию "7.5. Основы golang"](https://github.com/Bora2k3/devops-netology/blob/main/07-terraform-05-golang.md)
 ### [Домашнее задание к занятию "7.4. Средства командной работы над инфраструктурой."](https://github.com/Bora2k3/devops-netology/blob/main/07-terraform-04-teamwork.md)
