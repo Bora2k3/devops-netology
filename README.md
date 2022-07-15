@@ -1,5 +1,5 @@
+![](pic/certificate_DevOps.jpg)
 ### [Дипломный практикум в YandexCloud](https://github.com/Bora2k3/devops-diplom-yandexcloud)
-
 ### [Домашнее задание к занятию "10.02. Системы мониторинга"](https://github.com/Bora2k3/devops-netology/blob/main/10-monitoring-02-systems.md)
 ### [Домашнее задание к занятию "09.05 Gitlab"](https://github.com/Bora2k3/devops-netology/blob/main/09-ci-05-gitlab.md)
 ### [Домашнее задание к занятию "09.04 Teamcity"](https://github.com/Bora2k3/devops-netology/blob/main/09-ci-04-teamcity.md)
